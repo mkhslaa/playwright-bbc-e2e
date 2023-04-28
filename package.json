@@ -1,0 +1,17 @@
+{
+  "name": "playwright-bbc-e2e",
+  "version": "1.0.0",
+  "description": "playwright mocha chai framework to test BBC",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:chrome": "npx playwright test --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.33.0",
+    "prettier": "^2.8.8"
+  }
+}
